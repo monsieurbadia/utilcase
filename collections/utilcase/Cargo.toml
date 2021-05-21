@@ -1,0 +1,87 @@
+[package]
+name = "utilcase"
+version = "0.1.0"
+authors = ["monsieurbadia <iam@monsieurbadia.com>"]
+edition = "2018"
+
+[lib]
+name = "utilcase"
+path = "src/lib.rs"
+doctest = false
+
+[dependencies]
+uwa = { git = "https://github.com/monsieurbadia/uwa" }
+unitest = { git = "https://github.com/monsieurbadia/unitest" }
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "charcase_endofcase"
+path = "benches/charcase/endofcase.rs"
+harness = false
+
+[[bench]]
+name = "charcase_groupcase"
+path = "benches/charcase/groupcase.rs"
+harness = false
+
+[[bench]]
+name = "charcase_identcase"
+path = "benches/charcase/identcase.rs"
+harness = false
+
+[[bench]]
+name = "charcase_lowercase"
+path = "benches/charcase/lowercase.rs"
+harness = false
+
+[[bench]]
+name = "charcase_numbercase"
+path = "benches/charcase/numbercase.rs"
+harness = false
+
+[[bench]]
+name = "charcase_quotecase"
+path = "benches/charcase/quotecase.rs"
+harness = false
+
+[[bench]]
+name = "charcase_spacecase"
+path = "benches/charcase/spacecase.rs"
+harness = false
+
+[[bench]]
+name = "charcase_underscorecase"
+path = "benches/charcase/underscorecase.rs"
+harness = false
+
+[[bench]]
+name = "charcase_uppercase"
+path = "benches/charcase/uppercase.rs"
+harness = false
+
+[[bench]]
+name = "strcase_camelcase"
+path = "benches/strcase/camelcase.rs"
+harness = false
+
+[[bench]]
+name = "strcase_capitalcase"
+path = "benches/strcase/capitalcase.rs"
+harness = false
+
+[[bench]]
+name = "strcase_lowercase"
+path = "benches/strcase/lowercase.rs"
+harness = false
+
+[[bench]]
+name = "strcase_snakecase"
+path = "benches/strcase/snakecase.rs"
+harness = false
+
+[[bench]]
+name = "strcase_uppercase"
+path = "benches/strcase/uppercase.rs"
+harness = false

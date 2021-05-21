@@ -1,0 +1,15 @@
+[workspace]
+members = [
+	"collections/utilcase",
+]
+
+exclude = [
+	"examples/**/*",
+	"target/**/*",
+	"Cargo.lock",
+]
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
