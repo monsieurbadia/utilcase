@@ -10,7 +10,6 @@ path = "src/lib.rs"
 doctest = false
 
 [dependencies]
-uwa = { git = "https://github.com/monsieurbadia/uwa" }
 unitest = { git = "https://github.com/monsieurbadia/unitest" }
 
 [dev-dependencies]

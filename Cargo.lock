@@ -542,15 +542,6 @@ version = "0.1.0"
 dependencies = [
  "criterion",
  "unitest",
- "uwa",
-]
-
-[[package]]
-name = "uwa"
-version = "0.1.0"
-source = "git+https://github.com/monsieurbadia/uwa#0d63401cc4a3e87055cb36c04bb35663bfcbea99"
-dependencies = [
- "unitest",
 ]
 
 [[package]]
